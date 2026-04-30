@@ -1,11 +1,11 @@
 import 'package:e_chat/bottom_nav_section/home_screen.dart';
-import 'package:e_chat/Dashboard_Pages/profile_screen.dart';
+import 'package:e_chat/bottom_nav_section/profile_nav.dart';
 import 'package:flutter/material.dart';
 
 import '../Utils/common_color.dart';
 import '../Utils/image_constants.dart';
-import '../Dashboard_Pages/groups_screen.dart';
-import '../Dashboard_Pages/more_screen.dart';
+import 'more_nav.dart';
+import 'groups_nav.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
@@ -20,11 +20,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
   final List<Widget> screens =  [
     HomePage(),
-    GroupsScreen(),
+    GroupsNav(),
     ProfileScreen(),
     MoreScreen(),
   ];
-
 
 
 
@@ -34,8 +33,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
       backgroundColor: Colors.transparent,
       body: screens[selectedIndex],
        bottomNavigationBar: BottomNavigationBar(
-
-         elevation: 0,
+           elevation: 0,
          fixedColor: Colors.transparent,
          type: BottomNavigationBarType.fixed,
          unselectedLabelStyle: TextStyle(fontSize: 12,color: CC.background),
