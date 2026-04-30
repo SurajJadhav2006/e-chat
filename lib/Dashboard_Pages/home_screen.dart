@@ -75,16 +75,6 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           topSection(),
-
-          //           Center(
-          //   child: CW.commonEBEn(
-          //       onTap: () async {
-          //         SharedPreferences pref = await SharedPreferences.getInstance();
-          //         pref.setBool("isLogin", false);
-          //         Navigator.pushReplacement(context, MaterialPageRoute(builder: (_) => LoginPage()));
-          //       }, context: context
-          //   ),
-          // )
         ],
       ),
     );
