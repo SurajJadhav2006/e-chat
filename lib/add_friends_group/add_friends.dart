@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:e_chat/Dashboard_Pages/home_screen.dart';
+import 'package:e_chat/bottom_nav_section/home_screen.dart';
 import 'package:e_chat/Utils/firebase_firestore/firebase_helper.dart';
 import 'package:flutter/material.dart';
 

@@ -1,7 +1,7 @@
 import 'package:e_chat/Utils/text_constants.dart';
 import 'package:flutter/material.dart';
 
-import '../Dashboard_Pages/home_screen.dart';
+import '../bottom_nav_section/home_screen.dart';
 import '../Utils/common_color.dart';
 import '../Utils/common_widget.dart';
 import '../Utils/image_constants.dart';

@@ -8,7 +8,7 @@ import 'package:flutter/material.dart';
 import 'package:pin_code/pin_code.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../Dashboard_Pages/dashboard_screen.dart';
+import '../bottom_nav_section/dashboard_screen.dart';
 import '../Utils/common_color.dart';
 import '../Utils/common_widget.dart';
 import '../Utils/image_constants.dart';

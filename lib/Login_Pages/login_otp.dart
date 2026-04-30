@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:math';
 
-import 'package:e_chat/Dashboard_Pages/home_screen.dart';
+import 'package:e_chat/bottom_nav_section/home_screen.dart';
 import 'package:e_chat/Login_Pages/signup_page.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';

@@ -1,11 +1,11 @@
-import 'package:e_chat/Dashboard_Pages/home_screen.dart';
+import 'package:e_chat/bottom_nav_section/home_screen.dart';
 import 'package:e_chat/Dashboard_Pages/profile_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../Utils/common_color.dart';
 import '../Utils/image_constants.dart';
-import 'groups_screen.dart';
-import 'more_screen.dart';
+import '../Dashboard_Pages/groups_screen.dart';
+import '../Dashboard_Pages/more_screen.dart';
 
 class DashboardScreen extends StatefulWidget {
   const DashboardScreen({super.key});
